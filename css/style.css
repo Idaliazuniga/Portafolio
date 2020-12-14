@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,900&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+
+}
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+#intro{
+	background: url("../img/pawel-czerwinski-YuJm-d7k2Jg-unsplash.jpg") rgba(255,255,255,0.80);
+	background-blend-mode: lighten;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.idalia{
+	border-radius: 1000px;
+	width: 300px;
+}
+#intro h1{
+	padding-top: 20%;
+	font-size: 67px;
+	font-weight: 700;
+}
+#intro h2{
+	font-weight: 100;
+	font-size: 25px;
+}
+.camara{
+	width: 120px;
+	border-radius: 900px;
+}
+#about{
+	align-content: center;
+	text-align: center;
+	background-color: #33DEFF;
+}
+#about p{
+	padding: 3%;
+	font-size: 19px;
+}
+#services{
+	text-align: center;
+	padding: 7%; 
+	padding-bottom: 8%;
+}
+.servicio{
+	font-size: 20px;
+	text-align: center;
+	color: #000000;
+	
+}
+.icono{
+	color: #00ADCE;
+	font-size: 70px;
+	padding-bottom: 8%;
+}
+.title{
+	padding-bottom: 5%;
+}
+#contact{
+	background-color: aliceblue
+}
+.btn-dorado{
+	background-color: #33DEFF;
+	border-radius: 50px;
+	color: #FFFFFF;
+}
+.icon{
+	font-size: 30px;
+	color: #0052A9;
+	text-align: right;
+}
+#contact p{
+	font-size: 18px;
+	color: #00ADCE;
+}
+.social{
+	font-size: 50px;
+	padding: 5%;
+}
+.foot{
+	font-size: 15px;
+	padding-top: 9%;
+}
+footer{
+	background-color: #D0EDF2;
+}
+.porta{
+	padding-bottom: 6%;
+}
+#portafolio{
+	padding-top: 5%;
+	text-align: center;
+}
+.pp{
+	padding: 3%
+}
